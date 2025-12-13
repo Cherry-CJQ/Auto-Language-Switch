@@ -86,4 +86,4 @@ Auto-Language-Switch (ALS) 是一款专为开发者设计的 VS Code 扩展，�
     在 VS Code 中，打开本项目文件夹，然后按 `F5` 启动调试窗口。这将启动一个带有 ALS 扩展的新的 VS Code 实例，您可以在其中测试和调试插件功能。
 
 ## 📝 许可证
-MIT
+本项目采用 [MIT 许可证](./LICENSE.md)，欢迎自由使用和修改，但请保留原作者信息。
