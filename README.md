@@ -10,12 +10,23 @@ Auto-Language-Switch (ALS) 是一款专为开发者设计的 VS Code 扩展，�
 **核心功能特性:**
 
 *   **智能自动切换**:
-    *   **Coding**: 自动切换到 **英文输入法** (English Layout)。
-    *   **Commenting**: 自动切换到 **中文输入法** (Chinese Layout, 支持搜狗/微软拼音等)。
-*   **一键配置向导 (Setup Wizard)**:
+    *   **Coding**: 自动切换到 **英文输入法**。
+    *   **Commenting**: 自动切换到 **中文输入法**。
+*   **一键配置向导**:
     *   内置 `ALS: Setup Wizard` 命令，自动扫描系统输入法，可视化选择，免去手动查找 ID 的繁琐。
 *   **高性能 Sidecar**:
     *   采用 Rust 编写的本地进程，直接调用 Windows 底层 API，响应迅速且稳定，确保流畅的切换体验。
+
+## 🖥️ 兼容性与支持
+
+*   **操作系统**:
+    *   目前原生 Sidecar 仅支持 **Windows** 操作系统，后续可能会考虑支持 macOS 和 Linux。
+*   **开发环境**:
+    *   **Visual Studio Code** (版本 1.80.0 及以上)。
+*   **支持的编程语言**:
+    *   插件的智能切换功能支持多种编程语言的注释检测，包括但不限于 C/C++, Java, JavaScript, TypeScript, Python, Go, Rust, HTML, CSS, Vue, Shell Script 等。
+
+
 
 ## 🚀 插件使用说明
 
