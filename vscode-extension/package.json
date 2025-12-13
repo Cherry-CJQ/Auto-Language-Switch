@@ -1,8 +1,14 @@
 {
   "name": "auto-language-switch",
+  "publisher": "local",
   "displayName": "Auto Language Switch",
   "description": "Automatically switch input method based on context (Code vs Comment).",
   "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/auto-language-switch.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -46,7 +52,8 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
+    "vscode:prepublish": "npm run build-sidecar && npm run compile",
+    "build-sidecar": "node build-sidecar.js",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
@@ -54,10 +61,11 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.80.0",
     "@types/node": "18.x",
+    "@types/vscode": "^1.80.0",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
+    "@vscode/vsce": "^3.7.1",
     "eslint": "^8.47.0",
     "typescript": "^5.1.6"
   }

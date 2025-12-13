@@ -10,6 +10,7 @@ node_modules/
 out/
 dist/
 *.vsix
+vscode-extension/bin/
 
 # Rust / Cargo
 /native-sidecar/target/
