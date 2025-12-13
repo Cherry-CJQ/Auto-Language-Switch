@@ -1,0 +1,21 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Node.js / VS Code Extension
+node_modules/
+out/
+dist/
+*.vsix
+
+# Rust / Cargo
+/native-sidecar/target/
+**/*.rs.bk
+# Cargo.lock # (Commented out: Applications should commit this file)
+
+# System
+.DS_Store
+Thumbs.db

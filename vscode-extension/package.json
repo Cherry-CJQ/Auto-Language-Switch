@@ -2,7 +2,7 @@
   "name": "auto-language-switch",
   "displayName": "Auto Language Switch",
   "description": "Automatically switch input method based on context (Code vs Comment).",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -18,6 +18,10 @@
       {
         "command": "auto-language-switch.toggle",
         "title": "ALS: Toggle Active/Inactive"
+      },
+      {
+        "command": "auto-language-switch.setup",
+        "title": "ALS: Setup Wizard (Configure Keyboards)"
       }
     ],
     "configuration": {
@@ -27,6 +31,16 @@
           "type": "boolean",
           "default": true,
           "description": "Enable/Disable the extension."
+        },
+        "autoLanguageSwitch.englishLayout": {
+          "type": "string",
+          "default": "00000409",
+          "description": "Keyboard Layout ID for English. (Tip: Run command 'ALS: Setup Wizard' to select from a list)"
+        },
+        "autoLanguageSwitch.chineseLayout": {
+          "type": "string",
+          "default": "00000804",
+          "description": "Keyboard Layout ID for Chinese. (Tip: Run command 'ALS: Setup Wizard' to select from a list)"
         }
       }
     }
