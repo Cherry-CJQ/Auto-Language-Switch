@@ -89,7 +89,7 @@
 
 1.  **克隆项目**
     ```powershell
-    git clone https://github.com/your-repo/Auto-Language-Switch.git
+    git clone https://github.com/Cherry-CJQ/Auto-Language-Switch.git
     cd Auto-Language-Switch
     ```
 
