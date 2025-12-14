@@ -1,6 +1,6 @@
 <div align="center">
 
-### Auto-Language-Switch (ALS)
+<b><font size="6">Auto-Language-Switch (ALS)</font></b>
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white) ![Windows Only](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat&logo=windows&logoColor=white) ![License](https://img.shields.io/badge/license-MIT-green)
 
