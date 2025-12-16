@@ -12,5 +12,6 @@ windows = { version = "0.52", features = [
     "Win32_UI_WindowsAndMessaging",
     "Win32_System_Threading",
     "Win32_UI_TextServices",
-    "Win32_UI_Input_Ime"  # 新增
+    "Win32_UI_Input_Ime",
+    "Win32_System_Com",
 ] }

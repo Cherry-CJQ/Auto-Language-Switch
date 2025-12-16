@@ -74,7 +74,7 @@ export class SidecarClient {
             this.child = null;
         }
     }
-
+    
     public send(action: string, payload: string) {
         if (!this.child || !this.child.stdin) return;
         const msg = JSON.stringify({ action, payload }) + '\n';
